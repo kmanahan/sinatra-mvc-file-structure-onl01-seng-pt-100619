@@ -1,5 +1,7 @@
 class Dog < Sinatra::Base 
   attr_accessor :name 
   
-  @name = name 
+  def intialize 
+    @name = name 
+  end 
 end 
