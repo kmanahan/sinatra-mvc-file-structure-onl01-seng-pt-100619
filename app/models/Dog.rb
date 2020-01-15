@@ -14,4 +14,8 @@ class Dog < Sinatra::Base
   @@all
   end 
   
+  def self.name 
+    @name
+  end 
+  
 end 
