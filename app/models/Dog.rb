@@ -3,7 +3,7 @@ class Dog < Sinatra::Base
   
   @@all = []
   
-  def initialize 
+  def initialize(name, breed, age)
     @id = id
     @name = name 
     @breed = breed
