@@ -4,6 +4,7 @@ class Dog < Sinatra::Base
   def intialize 
     @id = id
     @name = name 
+    @breed = breed
     @age = age
   end 
 end 
