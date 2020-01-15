@@ -1,1 +1,3 @@
-class Dog < A
+class Dog < Sinatra::Base 
+  
+end 
