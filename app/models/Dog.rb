@@ -9,4 +9,8 @@ class Dog < Sinatra::Base
     @age = age
     @@all << self
   end 
+  
+  self.all 
+  @@all
+  end 
 end 
